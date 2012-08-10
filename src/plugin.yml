@@ -1,0 +1,21 @@
+name: Shopkeepers
+main: com.nisovin.shopkeepers.ShopkeepersPlugin
+version: 1.4
+author: nisovin
+commands:
+    shopkeeper:
+        description: Test
+        aliases: [shopkeepers]
+permissions:
+    shopkeeper.reload:
+        description: Reloads the plugin
+        default: op
+    shopkeeper.admin:
+        description: Create and modify an admin shopkeeper
+        default: op
+    shopkeeper.player:
+        description: Create and modify a player shopkeeper
+        default: true
+    shopkeeper.bypass:
+        description: Bypass player shop restrictions
+        default: op
